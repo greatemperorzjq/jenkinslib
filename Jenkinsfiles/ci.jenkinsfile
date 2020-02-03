@@ -11,7 +11,7 @@ pipeline{
     agent { node { label "master"}}
     
     stages{
-        stages("build"){
+        stage("build"){
             steps{
                 script{
                     build.Build(buildType,buildShell)
