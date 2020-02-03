@@ -1,6 +1,6 @@
 #!groovy
 
-@Library('jenkinslib') _
+@Library('jenkinslib') _    ##引用jenkins里面定义的库名称
 
 def tools = new org.devops.tools()  //定义的lib中org文件下的devops下的tools文件
 
