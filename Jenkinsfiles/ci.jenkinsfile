@@ -7,7 +7,7 @@ def build = new org.devops.build()
 String buildType = "${env.buildType}"
 String buildShell = "${env.buildShell}"
 
-Strng srcUrl = "${env.srcUrl}"
+String srcUrl = "${env.srcUrl}"
 String branchName= "${env.branchName}"
 
 
