@@ -2,8 +2,11 @@
 
 @Library('jenkinslib@master') _
 
+//func from sharelibary
 def build = new org.devops.build()
+def tools =new org.devops.tools()
 
+//env
 String buildType = "${env.buildType}"
 String buildShell = "${env.buildShell}"
 
